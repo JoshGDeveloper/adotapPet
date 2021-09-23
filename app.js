@@ -33,8 +33,8 @@ app.use('/v1', require('./routes'));
 //Definimos un puerto (lugar por el cual se va a entrar)
 // const PORT = 4001;
 //Activa la aplicacion en el puerto indicado y le indicamos que va a hacer
-app.listen(process.env.PORT, () =>{
-    console.log(`ITS ALIVE!!! Server listening on on port ${process.env.PORT}`);
+app.listen(process.env.PORT, () => {
+	console.log(`Server listening on port ${process.env.PORT}`)
 })
 
 
